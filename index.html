@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Endemias Covid-19 CG-PB</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+</head>
+
+<body>
+    <nav>
+        <a href="#map">Mapa</a>
+        <a href="#dados">Dados</a>
+        <a href="#informacoes" style="color: rgb(0, 0, 0)">ATENÇÃO</a>
+    </nav>
+    <div class="container">
+        <div class="cover">
+            <h1>Monitoramento de Endemias da <br> Covid-19 em Campina Grande - PB</h1>
+        </div>
+        <section id="map">
+            <h2>Mapa</h2>
+            <div class="map" id="mapid"></div>
+        </section>
+
+        <section>
+            <h4>Campina Grande - PB <br> Total de casos: 70.670 /Total de óbitos: 1.266/Novos casos: 200</h4>
+        </section>
+
+        <section id="dados">
+            <h2>Dados</h2>
+            <table id="dados_table">
+                <tr>
+                    <th>Zona</th>
+                    <th>Bairro</th>
+                    <th>Novos casos</th>
+                    <th>Total de óbitos <br> (Acumulados)</th>
+                    <th>Total de casos <br> (Acumulados)</th>
+                </tr>
+                <!-- Os dados serão inseridos dinamicamente aqui com JavaScript -->
+            </table>
+        </section>
+        <section id="informacoes">
+            <h2>Importante</h2>
+            <div class="info">
+                <p>
+                    Este site não apresenta dados reais sobre os bairros, 
+                    uma vez que fontes tão específicas sobre os casos não foram acessíveis. 
+                    O site foi desenvolvido exclusivamente para fins de aprendizado, 
+                    como parte de um trabalho de estágio. 
+                    Vale ressaltar que o número total de casos em Campina Grande - PB 
+                    foi obtido a partir de fontes oficiais e utilizado como referência para este projeto.
+                   Para obter informações atualizadas e detalhadas sobre a Covid-19, recomendamos acessar 
+                   fontes confiáveis e oficiais. Para mais informações, por favor, visite 
+                   <a href="https://covid.saude.gov.br">link 1</a> ou 
+                   <a href="https://paraiba.pb.gov.br/diretas/saude/coronavirus/dados-epidemiologicos-covid">link 2</a>.
+                </p>
+            </div>
+        </section>
+    </div>
+
+    <!--LOCAL DA API -->
+    <script src="api.js"></script>
+    
+    <footer>
+        @Weverson B. Diniz <br> Unifacisa <br> Campina Grande - PB <br> 2023
+    </footer>
+</body>
+</html>

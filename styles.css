@@ -1,0 +1,134 @@
+/* Estilos globais */
+body {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1, h2 {
+    color: #007BFF;
+}
+p {
+    font-size: 18px;
+}
+/* Menu */
+nav {
+    background-color: #007BFF;
+    padding: 10px 0;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+}
+/* Capa */
+
+/* Estilos para a capa */
+.cover {
+    background-image: url('C:\\Users\\Weverson\\Desktop\\projeto.estagio_2\\img\\capa.jpg');
+    background-size: cover; /* Para cobrir todo o elemento */
+    background-position: center; /* Centralize a imagem horizontalmente */
+    background-repeat: no-repeat; /* Não repita a imagem */
+    height: 20%; /* Altura de 20% da janela de visualização */
+    display: flex; /* Use flexbox para alinhar verticalmente o conteúdo */
+    justify-content: center; /* Centralize horizontalmente o conteúdo */
+    align-items: center; /* Centralize verticalmente o conteúdo */
+    text-align: center; /* Centralize o texto horizontalmente */
+    color: #fff; /* Cor do texto para melhor visibilidade */
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+
+/* Estilos adicionais para o título */
+.cover h1 {
+    font-size: 2.5rem; /* Tamanho da fonte do título */
+    background: rgba(0, 59, 114, 0.5); /* Cor de fundo com transparência (aqui, 0.5 é 50% de opacidade) */
+    color: #eeeeee; /* Cor do texto para melhor visibilidade */
+    padding: 20px; /* Espaçamento interno para criar a "janela de fundo" */
+    text-align: center; /* Centralize o texto horizontalmente */
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+
+/* Mapa */
+.map {
+    width: 80%;
+    margin: 20px auto;
+    height: 400px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para o informativo */
+.informativo {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    margin-right: 10px; /* Adicione um pequeno espaço entre o informativo e o canto direito */
+}
+
+/* Estilos para a legenda */
+.legenda {
+    margin-bottom: 5px;
+}
+
+/* Estilos para as cores da legenda (verde e roxa) */
+.cor {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.verde {
+    background-color: green;
+}
+.roxa {
+    background-color: purple;
+}
+
+  
+/* Tabela de Dados */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+th {
+    background-color: #007BFF;
+    color: white;
+}
+/* Informações adicionais */
+.info {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Rodapé */
+footer {
+    text-align: center;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 0;
+}
